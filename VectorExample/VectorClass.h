@@ -5,6 +5,7 @@
 
 using namespace std;
 
+template<class T>
 class VectorClass {
 
 private:
@@ -18,12 +19,13 @@ public:
 	int counter;
 
 	void show();
-
 	void pop();
-	void push();
+	void push(int index);
 	void replace();
 
 };
+
+
 
 
 

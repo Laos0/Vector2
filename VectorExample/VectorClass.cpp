@@ -2,37 +2,43 @@
 
 using namespace std;
 
-
-VectorClass::VectorClass() {
+template<class T>
+VectorClass<T>::VectorClass() {
 	maxSize = 5;
 	counter = 0;
 
 }
 
-VectorClass::VectorClass(int maxSize) {
+template<class T>
+VectorClass<T>::VectorClass(int maxSize) {
 	this->maxSize = maxSize;
 	counter = 0;
 }
 
-VectorClass::~VectorClass() {
+template<class T>
+VectorClass<T>::~VectorClass() {
 
 
 }
 
-void VectorClass::show() {
+template<class T>
+void VectorClass<T>::show() {
 
 	cout << "My maxSize is: " << maxSize << endl;
 	cout << "My counter is: " << counter << endl;
 }
 
-void VectorClass::pop() {
+template<class T>
+void VectorClass<T>::pop() {
 
 }
 
-void VectorClass::push() {
-
+template<class T>
+void VectorClass<T>::push(int index) {
+	
 }
 
-void VectorClass::replace() {
+template<class T>
+void VectorClass<T>::replace() {
 
 }
