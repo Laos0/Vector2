@@ -20,7 +20,7 @@ public:
 
 	void show();
 	void pop();
-	void push(int index);
+	void push(T element);
 	void replace();
 
 };

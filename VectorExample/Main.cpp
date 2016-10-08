@@ -10,6 +10,7 @@ int main() {
 	VectorClass<int> vector(10);
 
 	vector.show();
+	vector.push(9);
 	/*
 	vector.pop();
 	vector.push();

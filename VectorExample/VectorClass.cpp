@@ -34,7 +34,7 @@ void VectorClass<T>::pop() {
 }
 
 template<class T>
-void VectorClass<T>::push(int index) {
+void VectorClass<T>::push(T element) {
 	
 }
 
