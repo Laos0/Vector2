@@ -17,11 +17,12 @@ public:
 
 	int maxSize;
 	int counter;
+	T* arr;
 
 	void show();
 	void pop();
 	void push(T element);
-	void replace();
+	void replace(int index, T element);
 
 };
 
