@@ -23,16 +23,10 @@ public:
 	void pop();
 	void push(T element);
 	void replace(int index, T element);
+	int isPresent(T searchElement);
+
 
 };
-
-
-
-
-
-
-
-
 
 #endif
 

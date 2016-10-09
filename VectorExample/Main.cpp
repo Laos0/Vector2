@@ -2,6 +2,7 @@
 #include "VectorClass.h"
 #include "VectorClass.cpp"
 
+
 using namespace std; 
 
 
@@ -19,6 +20,18 @@ int main() {
 	vector.pop();
 	vector.pop();
 	vector.replace(44, 1);
+	
+	int searchedElement = 39;
+	int answer = vector.isPresent(searchedElement);
+	if (answer == 0) {
+
+		cout << "Number found: " << searchedElement << endl;
+	}
+	else {
+
+		cout << "Number cannot be found." << endl;
+	}
+
 	vector.show();
 	/*
 	vector.pop();
